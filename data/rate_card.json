@@ -1,0 +1,53 @@
+{
+  "auto_approval_threshold_kd": 500,
+  "services": {
+    "digital_display": {
+      "32_inch": { "hardware_kd": 160, "installation_kd": 35 },
+      "43_inch": { "hardware_kd": 200, "installation_kd": 35 },
+      "55_inch": { "hardware_kd": 240, "installation_kd": 45 },
+      "cms_addon_kd": 60,
+      "tower_access_fee_kd": 35
+    },
+    "signage": {
+      "door_sign": { "design_kd": 40, "print_kd": 30, "install_kd": 25 },
+      "waiting_area": { "design_kd": 60, "print_kd": 80, "install_kd": 40 },
+      "lobby_directory": { "design_kd": 80, "install_kd": 60 }
+    },
+    "cctv": {
+      "per_camera_kd": 85,
+      "nvr_kd": 180,
+      "cabling_per_camera_kd": 25,
+      "installation_kd": 50
+    },
+    "lighting": {
+      "per_fixture_kd": 35,
+      "wiring_kd": 45,
+      "design_kd": 30
+    },
+    "partition": {
+      "per_sqm_kd": 55,
+      "door_kd": 120,
+      "finishing_kd": 30
+    },
+    "cleaning": {
+      "deep_clean_per_sqm_kd": 2.5,
+      "regular_per_visit_kd": 45,
+      "carpet_per_sqm_kd": 3.0
+    },
+    "painting": {
+      "per_sqm_kd": 4.5,
+      "primer_per_sqm_kd": 1.5,
+      "specialty_finish_per_sqm_kd": 7.0
+    },
+    "flooring": {
+      "vinyl_per_sqm_kd": 12,
+      "ceramic_per_sqm_kd": 18,
+      "epoxy_per_sqm_kd": 22,
+      "removal_per_sqm_kd": 5
+    }
+  },
+  "tower_access_surcharge": {
+    "clinic_vi_tower_a": 1.1,
+    "default": 1.0
+  }
+}
